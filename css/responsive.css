@@ -1,8 +1,35 @@
-@media screen and (max-width: 800px){
-    body{
-        background-color: red;
-    }
-    nav{
+@media screen and (max-width: 800px) {
+    nav {
         flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0px;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 23px;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 12px;
+        width: 43vw;
+    }
+
+    .search img {
+        width: 27px;
+        position: inherit;
+    }
+    .slider{
+        height: 23vh;
+    }
+    .card-item img{
+        width: 140px;
     }
 }
