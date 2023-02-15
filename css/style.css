@@ -58,7 +58,7 @@ nav ul li a:hover{
 }
 
 .search input{
-    width: 493px;
+    width: 30vw;
     height: 27px;
     border-radius: 4px;
     margin: 0 56px;
@@ -77,12 +77,19 @@ nav ul li a:hover{
 }
 
 .container{
-    background-color: rgb(211, 205, 205);
+    background-color: rgb(229, 222, 222);
     min-height: calc(100vh - 58px - 12vh);
 }
 
+.slider{
+    margin: 10px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+
 .card{
-    /* background-color: #2370f4; */
+    background-color: white;
     max-width: 90vw;
     margin: 37px auto;
 }
@@ -105,11 +112,6 @@ nav ul li a:hover{
     flex-direction: column;
     width: 10vw;
     margin: 0 15px;
-}
-
-.slider{
-    margin: 10px auto;
-    width: 80vw;
 }
 
 footer{
